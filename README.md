@@ -8,5 +8,5 @@ Write a function that takes in a string and for each character, returns the dist
 - Write unit tests to cover possible combinations and edge cases
 
 Commands for running:
-- `npm start` executes `index.js`
+- `npm start` runs `index.js`
 - `npm test` runs tests in `main.test.js`

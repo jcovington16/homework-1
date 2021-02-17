@@ -1,4 +1,5 @@
 import fetch from 'node-fetch';
+// Recommend using node-fetch for those familiar with JS fetch
 
 const COLORS = 'https://nt-cdn.s3.amazonaws.com/colors.json';
 

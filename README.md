@@ -40,5 +40,6 @@ const result = fetchColors({
 - Feel free to add more unit tests
 
 Commands for running:
+- `npm install` to install dependencies
 - `npm start` runs `index.js`
 - `npm test` runs tests in `main.test.js`

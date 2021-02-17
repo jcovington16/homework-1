@@ -1,11 +1,17 @@
+import fetch from 'node-fetch';
+
+const COLORS = 'https://nt-cdn.s3.amazonaws.com/colors.json';
+
 /**
- * Write a function that takes in a string and for each character,
- * returns the distance to the nearest vowel. If the character is a vowel itself, return 0.
- * @param {string} input
- * @returns {array} of distances (integers) to the nearest vowel
+ * @param name filter for color name
+ * @param hex filter for color hex code
+ * @param compName filter for complementary color name
+ * @param compHex filter for complementary color hex code
+ * @returns Promise
  */
-const distanceToNearestVowel = (input) => {
-  return [0, 1, 2];
+const fetchColors = ({ name, hex, compName, compHex }) => {
+  throw Error('Not implenented');
 };
 
-export default distanceToNearestVowel;
+// Leave this here
+export default fetchColors;

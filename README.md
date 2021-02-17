@@ -7,18 +7,37 @@ Group members:
 ...
 ```
 
-Write a function that takes in a string and for each character, returns the distance to the nearest vowel. If the character is a vowel itself, return 0.
-
-```
+Write a function that:
+- retrieves the colors from the COLORS endpoint
+- filters the returned colors by:
+  - name contains string
+  - hex code
+  - it contains a complementary color whose name contains a string
+  - it contains a complementary color whose hex code equals a given hex code
+  
+  Examples:
+  - give me all the colors that contain 'Blue' in their name
+  - give me all the colors with hex code '9FAC58'
+  - give me all the colors that have a complementary color whose name contains 'Blue'
+  - give me all the colors that have a complementary color whose hex = '9FAC58'
+ 
+```JS
 // Example
-const input = "abcde";
-const result = distanceToNearestVowel(input); // should be [0, 1, 2, 1, 0];
+const result = fetchColors({
+  name: 'Almond',
+});
+
+// should return 
+{
+  "hex": "EFDECD",
+  "name": "Almond",
+  ...
+};
 ```
 
 - Only ES6 syntax allowed (convert any non ES6 syntax to ES6)
-- Calculate time complexity
 - Provide documentation in the code to make it easy to follow
-- Write unit tests to cover possible combinations and edge cases
+- Feel free to add more unit tests
 
 Commands for running:
 - `npm start` runs `index.js`

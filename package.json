@@ -26,5 +26,8 @@
     "babel-jest": "^26.3.0",
     "babel-preset-es2015": "^6.24.1",
     "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
   }
 }

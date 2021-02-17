@@ -28,11 +28,11 @@ const result = fetchColors({
 });
 
 // should return 
-{
+[{
   "hex": "EFDECD",
   "name": "Almond",
   ...
-};
+}];
 ```
 
 - Only ES6 syntax allowed (convert any non ES6 syntax to ES6)

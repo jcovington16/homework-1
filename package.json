@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "babel": "babel --presets es2015 ./index.js -o build/index.bundle.js",
-    "start": "npm run babel && node ./build/index.bundle.js"
+    "babel": "babel --presets es2015 ./index.js --out-dir build",
+    "start": "npm run babel && node ./build"
   },
   "repository": {
     "type": "git",

@@ -8,7 +8,7 @@ Group members:
 ```
 
 Write a function that:
-- retrieves the colors from the COLORS endpoint
+- retrieves the colors from the COLORS endpoint (use [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch]))
 - filters the returned colors by:
   - name contains string
   - hex code

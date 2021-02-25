@@ -10,10 +10,10 @@ Group members:
 Write a function that:
 - retrieves the colors from the COLORS endpoint (use [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch]))
 - filters the returned colors by:
-  - name contains string
-  - hex code
-  - it contains a complementary color whose name contains a string
-  - it contains a complementary color whose hex code equals a given hex code
+  - name contains string (case insensitive)
+  - hex code (without '#')
+  - it contains a complementary color whose name contains a string (case insensitive)
+  - it contains a complementary color whose hex code equals a given hex code (without '#')
   
   Examples:
   - give me all the colors that contain 'Blue' in their name

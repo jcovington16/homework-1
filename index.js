@@ -11,7 +11,7 @@ const COLORS = 'https://nt-cdn.s3.amazonaws.com/colors.json';
  * @returns Promise
  */
 const fetchColors = ({ name, hex, compName, compHex }) => {
-  throw Error('Not implenented');
+  throw Error('Not implemented');
 };
 
 // Leave this here

@@ -16,7 +16,7 @@ Write a function that:
  
 ```JS
 // Example
-const result = fetchColors({
+const result = await fetchColors({
   name: 'Almond',
 });
 

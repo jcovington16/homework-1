@@ -7,7 +7,8 @@ Write a function that:
   - hex code (without '#')
   - it contains a complementary color whose name contains a string (case insensitive)
   - it contains a complementary color whose hex code equals a given hex code (without '#')
-  
+- assume that only one filter can be passed in at a time.
+
   Examples:
   - give me all the colors that contain 'Blue' in their name
   - give me all the colors with hex code '9FAC58'

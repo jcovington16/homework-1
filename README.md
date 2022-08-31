@@ -29,6 +29,8 @@ const result = await fetchColors({
 }];
 ```
 
+NOTE: If you need some Promise practice see https://github.com/prof-tejera/es6-primer/blob/main/src/practice.js
+
 - Only ES6 syntax allowed (convert any non ES6 syntax to ES6)
 - Provide documentation in the code to make it easy to follow
 - Feel free to add more unit tests

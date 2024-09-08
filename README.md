@@ -1,5 +1,16 @@
 # Homework 1
 
+## Install/Setup
+
+You will need to install NodeJS (it comes with NPM) in order to run this homework on your computer. You can do that by downloading directly from [here](https://nodejs.org/en/download/prebuilt-installer/current). You can do it that way, or you can use a node version manager like [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating). Our recommendation is that you use `nvm`. Once you have node installed, open a terminal and navigate to this directory. 
+
+Commands for running:
+- `npm install` to install dependencies
+- `npm start` runs `index.js`
+- `npm test` runs tests in `main.test.js`
+
+## Homework 1
+
 Write a function that:
 - retrieves the colors from the COLORS endpoint (use [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch))
 - filters the returned colors by:
@@ -35,7 +46,3 @@ NOTE: If you need some Promise practice see https://github.com/prof-tejera/es6-p
 - Provide documentation in the code to make it easy to follow
 - Feel free to add more unit tests
 
-Commands for running:
-- `npm install` to install dependencies
-- `npm start` runs `index.js`
-- `npm test` runs tests in `main.test.js`
